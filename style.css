@@ -1,0 +1,87 @@
+* {
+ font-family: Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ background-color: #f2edd9;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 68px;
+    color: #cc7b2f;
+    text-transform: uppercase;
+}
+
+.container{
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+#plus, #equal {
+    font-size: 64px;
+
+}
+#firstNum, #secondNum{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    background-color: #89B100;
+    font-size: 64px;
+    margin: 20px;
+    padding: 35px 20px 20px 20px;
+    border-radius: 20px;
+}
+#secondNum{
+    background-color:#6194a7;
+}
+
+#input {
+    margin: 20px;
+    width: 130px;
+    height: 80px;
+    text-align: center;
+    font-size: 44px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#btn{
+    position: relative;
+    margin: 10px;
+    width: 130px;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #dc143c;
+    border: 2px solid black;
+}
+
+#btn:hover{
+    color: #574240;
+    background-color: #07BAE4;
+}
+
+#message{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #4A4737;
+    text-transform: uppercase;
+}
