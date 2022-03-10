@@ -56,6 +56,24 @@ header{
     border-radius: 10px;
     border: 2px solid black;
 }
+#newSum{
+    position: relative;
+    margin: 10px;
+    width: 130px;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #dc143c;
+    border: 2px solid black;
+    
+}
+
+#newSum:hover{
+    color: #574240;
+    background-color: #07BAE4;
+}
 
 #btn{
     position: relative;
